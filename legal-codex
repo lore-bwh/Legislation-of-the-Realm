@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Legal Codex | The Realm Wiki</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">⚖</div>
+          <div>
+            <h1>The Realm</h1>
+            <p>Code of Laws & Governance</p>
+          </div>
+        </div>
+
+        <nav class="side-nav" aria-label="Main navigation">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="government.html">Monarchy & Government</a>
+          <a class="nav-link active" href="legal-codex.html">Legal Codex</a>
+          <a class="nav-link" href="civil-principles.html">Civil Principles</a>
+          <a class="nav-link" href="religious-laws.html">Religious Laws</a>
+          <a class="nav-link" href="judiciary.html">Judiciary</a>
+          <a class="nav-link" href="legal-procedure.html">Legal Procedure</a>
+          <a class="nav-link" href="quick-reference.html">Quick Reference</a>
+        </nav>
+
+        <div class="search-panel">
+          <label for="searchInput" class="sr-only">Search the wiki</label>
+          <input id="searchInput" type="search" placeholder="Search this page..." />
+          <div id="searchResults" class="search-results" aria-live="polite"></div>
+        </div>
+      </aside>
+
+      <main class="content">
+        <header class="page-header">
+          <div>
+            <p class="eyebrow">Law</p>
+            <h2>Legal Codex</h2>
+          </div>
+          <button class="print-button" onclick="window.print()">Print</button>
+        </header>
+
+        <article class="article">
+          <nav class="page-toc" aria-label="Page sections">
+            <strong>Contents</strong>
+            <ul>
+              <li><a href="#classification">Classification of Offenses</a></li>
+              <li><a href="#violent">Violent Crimes</a></li>
+              <li><a href="#property">Property Crimes</a></li>
+              <li><a href="#authority">Crimes Against Authority</a></li>
+              <li><a href="#public">Public Order Crimes</a></li>
+              <li><a href="#moral">Moral & Religious Crimes</a></li>
+              <li><a href="#commerce">Commerce & Fraud</a></li>
+              <li><a href="#military">Military Crimes</a></li>
+              <li><a href="#noble">Crimes of Noble Status</a></li>
+              <li><a href="#punishments">Punishment Principles</a></li>
+            </ul>
+          </nav>
+
+          <section id="classification">
+            <h3>Classification of Offenses</h3>
+            <div class="table-box">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Classification</th>
+                    <th>Scope</th>
+                    <th>Typical Sanctions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Minor Offense</td>
+                    <td>Limited harm, low-level disruption</td>
+                    <td>Fine, warning, short detention, corrective service</td>
+                  </tr>
+                  <tr>
+                    <td>Major Offense</td>
+                    <td>Serious harm or deliberate wrongdoing</td>
+                    <td>Imprisonment, fines, seizure, loss of rights</td>
+                  </tr>
+                  <tr>
+                    <td>Serious Offense</td>
+                    <td>Threat to safety, order, or authority</td>
+                    <td>Extended imprisonment, exile, mutilation, removal of title</td>
+                  </tr>
+                  <tr>
+                    <td>Capital Offense</td>
+                    <td>Highest crimes against Crown or Realm</td>
+                    <td>Execution by lawful judicial process</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section id="violent">
+            <h3>Violent Crimes</h3>
+            <p>Crimes involving the unlawful use of force against persons.</p>
+            <div class="card-list">
+              <div class="card">
+                <h4>CR-001: Assault</h4>
+                <p>Unlawful threat or attempt to use force. Includes raising a weapon with intent to harm or striking a defensive posture meant to provoke. Simple assault carries fines or short imprisonment.</p>
+              </div>
+              <div class="card">
+                <h4>CR-002: Battery</h4>
+                <p>Unlawful physical contact causing injury. Simple battery (minor wounds) differs from aggravated battery (weapons used, multiple attackers, severe injury, targeting of vulnerable persons). Severity increases if victim is noble or royal.</p>
+              </div>
+              <div class="card">
+                <h4>CR-003: Grievous Bodily Harm</h4>
+                <p>Intentional infliction of severe, permanent injury. Includes breaking bones, blinding, deafening, or causing disfiguring wounds. Prosecution requires medical evidence. Often charged alongside attempted murder.</p>
+              </div>
+              <div class="card">
+                <h4>CR-004: Murder - First Degree</h4>
+                <p>Premeditated, deliberate killing. Includes killing during commission of another felony (felony murder). Proof of intent is critical. A capital offense.</p>
+              </div>
+              <div class="card">
+                <h4>CR-005: Murder - Second Degree</h4>
+                <p>Unlawful killing with malice aforethought but without premeditation. Includes reckless killing in commission of a violent crime. Capital or life imprisonment.</p>
+              </div>
+              <div class="card">
+                <h4>CR-006: Manslaughter</h4>
+                <p>Unlawful killing without premeditation or malice. Often committed in heat of passion, without intent to kill. Reduced from murder by mitigating circumstances. Imprisonment, not capital.</p>
+              </div>
+              <div class="card">
+                <h4>CR-007: Attempted Murder</h4>
+                <p>Clear attempt to kill another, but with failure or intervention. Severity depends on method and proximity to success. Serious felony, typically capital for aggravated attempts.</p>
+              </div>
+              <div class="card">
+                <h4>CR-008: Kidnapping & Abduction</h4>
+                <p>Unlawful seizure or confinement of a person. Aggravated by ransom demand (capital offense), targeting of children or nobility, or intent to enslave. Includes false imprisonment and detention without lawful authority.</p>
+              </div>
+              <div class="card">
+                <h4>CR-009: Redacted</h4>
+                <p>Redacted.</p>
+              </div>
+              <div class="card">
+                <h4>CR-010: Redacted</h4>
+                <p>Redacted.</p>
+              </div>
+              <div class="card">
+                <h4>CR-011: Poisoning</h4>
+                <p>Administering toxic substances to another with intent to harm or kill. Charged as assault (if victim survives), attempted murder, or murder depending on outcome. Includes tampering with food or drink.</p>
+              </div>
+              <div class="card">
+                <h4>CR-012: Torture</h4>
+                <p>Deliberate infliction of severe pain on a helpless or restrained person. A capital offense. Exception: authorized torture by Crown order during interrogation remains lawful, but excess is prosecuted as abuse of authority.</p>
+              </div>
+              <div class="card">
+                <h4>CR-013: Mutilation & Maiming</h4>
+                <p>Deliberately causing permanent disfigurement, loss of limb, or loss of sensory function. Often prosecuted alongside assault. Eye-for-eye retaliation may be permitted by local custom but not by Crown law.</p>
+              </div>
+              <div class="card">
+                <h4>CR-014: Throwing of Objects with Intent to Harm</h4>
+                <p>Hurling rocks, blades, or other objects at another person with intent to injure. Treated as assault or battery depending on result. If fatal, can be charged as manslaughter or murder.</p>
+              </div>
+              <div class="card">
+                <h4>CR-015: Suffocation & Choking</h4>
+                <p>Deliberately restricting another person's ability to breathe. Charged as assault if survived, attempted murder or murder if fatal. Strangulation leaves telltale marks aiding prosecution.</p>
+              </div>
+            </div>
+          </section>
+
+          <section id="property">
+            <h3>Property Crimes</h3>
+            <p>Crimes involving unlawful taking, damage, or destruction of property.</p>
+            <div class="card-list">
+              <div class="card">
+                <h4>CR-016: Theft - Petty</h4>
+                <p>Unlawful taking of items of low value (under 5 gold). Includes shoplifting, pickpocketing, or stealing food. Punishment: fine, restitution, or short imprisonment. Repeat offenders face harsher penalties or mutilation (ear-cutting).</p>
+              </div>
+              <div class="card">
+                <h4>CR-017: Theft - Grand</h4>
+                <p>Unlawful taking of items of significant value (5+ gold). Punishment: imprisonment, seizure of assets, or corporal punishment. Serial theft or theft of royal property elevates to felony.</p>
+              </div>
+              <div class="card">
+                <h4>CR-018: Burglary - Day</h4>
+                <p>Unlawful entry into a building with intent to commit theft or felony during daylight. Serious felony. Punishment: imprisonment, fines, branding, or mutilation.</p>
+              </div>
+              <div class="card">
+                <h4>CR-019: Burglary - Night</h4>
+                <p>Unlawful entry during darkness. Enhanced penalties due to danger to occupants and premeditation. Can be capital if victim is harmed. Includes breaking seals, forcing locks, or cutting through walls.</p>
+              </div>
+              <div class="card">
+                <h4>CR-020: Robbery</h4>
+                <p>Taking property by force, threat, or intimidation. A violent felony combining theft with assault. Armed robbery, highway robbery, or robbery of nobles carries capital penalties. Accomplices are culpable even without using violence.</p>
+              </div>
+              <div class="card">
+                <h4>CR-021: Extortion & Protection Rackets</h4>
+                <p>Obtaining money or property through coercion, threats of violence, property damage, or social ruin. Organized extortion is prosecuted as conspiracy. Serious felony with imprisonment or mutilation.</p>
+              </div>
+              <div class="card">
+                <h4>CR-022: Blackmail</h4>
+                <p>Threatening to reveal damaging information unless payment is made. A variant of extortion. Punishment: imprisonment, fines, or public humiliation.</p>
+              </div>
+              <div class="card">
+                <h4>CR-023: Receiving & Fencing Stolen Goods</h4>
+                <p>Knowingly purchasing, accepting, or concealing stolen property. Conspiracy with thieves carries same penalty as theft itself. Pawnbrokers and merchants must report suspicious transactions.</p>
+              </div>
+              <div class="card">
+                <h4>CR-024: Arson</h4>
+                <p>Deliberately setting fire to property. If a dwelling with occupants, can be charged as murder. Arson for revenge, insurance fraud, or military advantage is a serious felony or capital offense. Includes hay fires, warehouse fires, and naval arson.</p>
+              </div>
+              <div class="card">
+                <h4>CR-025: Vandalism & Destruction of Property</h4>
+                <p>Deliberately damaging, defacing, or destroying another's property. Severity depends on value and type. Destruction of public property, bridges, fortifications, or royal seals elevates charges. Punishment: fines, restitution, or imprisonment.</p>
+              </div>
+              <div class="card">
+                <h4>CR-026: Poaching & Unlawful Hunting</h4>
+                <p>Hunting or trapping on another's land or royal forests without permission. Lesser offense on common lands; felony on private or Crown forests. Killing royal game (stags, boar) carries harsh penalties including mutilation or execution.</p>
+              </div>
+              <div class="card">
+                <h4>CR-027: Timber Theft & Illegal Logging</h4>
+                <p>Cutting trees on another's land without permission, especially on Crown lands. Serious felony if large-scale. Punishment: fines, forced labor, or removal of hand.</p>
+              </div>
+              <div class="card">
+                <h4>CR-028: Animal Theft</h4>
+                <p>Stealing livestock, horses, hunting dogs, or other animals. Theft of a noble's prized horse or hound can be charged as grand theft. Punishment varies by animal value.</p>
+              </div>
+              <div class="card">
+                <h4>CR-029: Piracy & Ship Robbery</h4>
+                <p>Robbing or seizing a merchant vessel at sea. A capital offense. Includes attacking fishing boats, merchant galleys, or trading ships. Often prosecuted jointly with murder and kidnapping.</p>
+              </div>
+              <div class="card">
+                <h4>CR-030: Shipwreck Looting & Salvage Theft</h4>
+                <p>Plundering a wrecked vessel or taking cargo from shipwreck without Crown permission. Salvagers are expected to report wrecks and seek authorization. Looting without permission is theft or grand theft.</p>
+              </div>
+            </div>
+          </section>
+
+          <section id="authority">
+            <h3>Crimes Against Authority</h3>
+            <p>Crimes targeting the lawful government, Crown, or institutional order.</p>
+            <div class="card-list">
+              <div class="card">
+                <h4>CR-031: Treason - High Treason</h4>
+                <p>Deliberate betrayal of the Crown through conspiracy to overthrow, regicide, aiding foreign enemies, or revealing state secrets that endanger the Realm. A capital offense. Convicted traitors may suffer attainder (family dishonored and disinherited).</p>
+              </div>
+              <div class="card">
+                <h4>CR-032: Treason - Compassing the King's Death</h4>
+                <p>Plotting or imagining the death of the reigning monarch. Includes verbal threats, written conspiracies, or symbolic acts. Capital offense. Intent is sufficient; actual attempt not required.</p>
+              </div>
+              <div class="card">
+                <h4>CR-033: Sedition & Incitement to Rebellion</h4>
+                <p>Speech, writing, or action designed to incite public disorder or rebellion against lawful authority. Includes distributing seditious pamphlets, preaching against the Crown, or organizing armed resistance. Serious felony or capital depending on scale.</p>
+              </div>
+              <div class="card">
+                <h4>CR-034: Conspiracy & Unlawful Assembly</h4>
+                <p>Agreement between two or more persons to commit a crime, with an overt act in furtherance. Conspiracy to commit murder, theft, or treason carries the same penalty as the underlying crime. Mere agreement without overt act may still be punishable.</p>
+              </div>
+              <div class="card">
+                <h4>CR-035: Abuse of Authority</h4>
+                <p>An official using lawful power for unlawful ends: torture beyond necessity, wrongful imprisonment, extortion, discrimination, or theft. Includes taking bribes, selling justice, or framing the innocent. Serious felony; officials may face additional disgrace.</p>
+              </div>
+              <div class="card">
+                <h4>CR-036: Bribery - Offering</h4>
+                <p>Giving money or valuable consideration to an official to induce misconduct. Both giver and receiver are culpable. Punishment: fines, imprisonment, or public shaming.</p>
+              </div>
+              <div class="card">
+                <h4>CR-037: Bribery - Accepting</h4>
+                <p>An official accepting gifts or money in exchange for misuse of authority. A serious breach of trust. Punishment: imprisonment, fines, loss of office, branding, or mutilation.</p>
+              </div>
+              <div class="card">
+                <h4>CR-038: Corruption & Embezzlement</h4>
+                <p>Officials stealing Crown funds or misappropriating public resources. Includes falsifying accounts, issuing unauthorized grants, or selling offices. Serious felony. Punishment includes restitution, imprisonment, and removal from office.</p>
+              </div>
+              <div class="card">
+                <h4>CR-039: Perjury - False Oath</h4>
+                <p>Deliberately giving false testimony under lawful oath in court, before the Crown, or before religious authority. Punishment: fines, imprisonment, mutilation (ear-cutting or tongue-cutting in severe cases), or capital if perjury enabled execution of the innocent.</p>
+              </div>
+              <div class="card">
+                <h4>CR-040: False Accusation & Malicious Prosecution</h4>
+                <p>Knowingly making false criminal charges against another. Penalties equal those the accused would have faced. If the accusation led to execution, the accuser may face capital punishment themselves.</p>
+              </div>
+              <div class="card">
+                <h4>CR-041: Obstruction of Justice</h4>
+                <p>Tampering with evidence, intimidating witnesses, bribing officials, helping criminals escape, or destroying records. Includes harboring fugitives or providing false information to authorities. Serious felony.</p>
+              </div>
+              <div class="card">
+                <h4>CR-042: Escape from Lawful Custody</h4>
+                <p>Breaking free from imprisonment or arrest. Severity depends on the original charge and method of escape. Violent escape or escape from capital charges adds to the sentence.</p>
+              </div>
+              <div class="card">
+                <h4>CR-043: Rescue of Prisoner</h4>
+                <p>Forcibly freeing a person held in lawful custody or imprisonment. Includes attacking guards or breaking into dungeons. Serious felony or capital if involving violence or if the prisoner was charged with capital crime.</p>
+              </div>
+              <div class="card">
+                <h4>CR-044: Resistance to Lawful Authority</h4>
+                <p>Actively resisting arrest or lawful commands from officials. Includes fighting guards, fleeing, or destroying official documents. Punishment: fines, imprisonment, or corporal punishment.</p>
+              </div>
+              <div class="card">
+                <h4>CR-045: Impersonation of Official</h4>
+                <p>Falsely claiming to hold office, wearing official garb, or forging credentials to exercise authority. Used to commit fraud or intimidation. Serious felony; punishment includes removal of right hand or mutilation.</p>
+              </div>
+            </div>
+          </section>
+
+          <section id="public">
+            <h3>Public Order Crimes</h3>
+            <p>Crimes that disrupt public peace, safety, and civil order.</p>
+            <div class="card-list">
+              <div class="card">
+                <h4>CR-046: Rioting & Violent Assembly</h4>
+                <p>Gathering of 3+ persons with intent to commit violence or breach of peace. Includes mob attacks, storming of buildings, or mass looting. Rioters may be dispersed by force; deaths in dispersal may not be prosecutable. Serious felony if resulting in death or major destruction.</p>
+              </div>
+              <div class="card">
+                <h4>CR-047: Unlawful Assembly</h4>
+                <p>Gathering with purpose to commit crime, even without violence. Includes armed assemblies, seditious meetings, or gatherings banned by proclamation. Police may order dispersal; failure to obey is additional offense.</p>
+              </div>
+              <div class="card">
+                <h4>CR-048: Breach of the Peace</h4>
+                <p>Conduct causing disruption, noise, fighting, or conflict in public spaces. Includes brawling in streets, loud disturbances in markets, or threatening behavior. Minor offense; punishment is fines or short detention.</p>
+              </div>
+              <div class="card">
+                <h4>CR-049: Trespassing</h4>
+                <p>Entering or remaining on another's property without permission after being ordered to leave. Enhanced penalties for trespassing on royal lands, fortifications, or sacred sites. Punishment: fines or short imprisonment.</p>
+              </div>
+              <div class="card">
+                <h4>CR-050: Vagrancy & Loitering</h4>
+                <p>Being present in public with no lawful purpose or known means of support. Vagrant persons may be ordered to leave; refusal results in arrest. Habitual vagrants may be conscripted, imprisoned, or branded.</p>
+              </div>
+              <div class="card">
+                <h4>CR-051: Begging Without License</h4>
+                <p>Soliciting alms without official authorization. Organized begging rings or forced begging is conspiracy. Punishment: fines or forced labor.</p>
+              </div>
+              <div class="card">
+                <h4>CR-052: Public Intoxication</h4>
+                <p>Being noticeably drunk in public to the point of creating a nuisance. Minor offense. Punishment: fines or overnight detention. Habitual drunks may be whipped or branded.</p>
+              </div>
+              <div class="card">
+                <h4>CR-053: Disorderly Conduct</h4>
+                <p>Behavior deemed offensive, abusive, or disruptive in public. Includes lewdness, exposure, verbal abuse, or aggressive behavior. Punishment: fines or short imprisonment.</p>
+              </div>
+              <div class="card">
+                <h4>CR-054: Dueling & Unlawful Combat</h4>
+                <p>Engaging in single combat outside lawful trial by combat. Dueling by prior arrangement is prosecuted as conspiracy and assault. Deaths from unauthorized dueling are prosecuted as murder. The Crown may ban dueling entirely in some jurisdictions.</p>
+              </div>
+              <div class="card">
+                <h4>CR-055: Unauthorized Fortification & Armed Presence</h4>
+                <p>Establishing fortifications, keeping armed men, or assembling forces without Crown permission. Serious felony; indicates intent to rebellion or make war against Crown. Punishment: seizure of arms, destruction of fortifications, imprisonment, or execution.</p>
+              </div>
+              <div class="card">
+                <h4>CR-056: Harboring Criminals & Fugitives</h4>
+                <p>Knowingly sheltering, feeding, or providing safe passage to someone fleeing lawful authority. Includes family members if they act with knowledge. Punishment: fines, imprisonment, or joint liability for the fugitive's crimes.</p>
+              </div>
+            </div>
+          </section>
+
+          <section id="moral">
+            <h3>Moral & Religious Crimes</h3>
+            <p>Crimes against morality, faith, and sacred institutions.</p>
+            <div class="card-list">
+              <div class="card">
+                <h4>CR-057: Redacted</h4>
+                <p>Redacted.</p>
+              </div>
+              <div class="card">
+                <h4>CR-058: Pandering & Brothel-Keeping</h4>
+                <p>Procuring clients for prostitutes or operating an unlicensed brothel. Includes forcing or coercing persons into prostitution. Serious felony. Punishment: imprisonment, branding, or mutilation.</p>
+              </div>
+              <div class="card">
+                <h4>CR-059: Adultery</h4>
+                <p>Sexual relations outside marriage. Penalties vary by social rank and gender. Nobles may face dishonor or exile; common folk may face whipping or fines. Prosecutable by spouse or Crown.</p>
+              </div>
+              <div class="card">
+                <h4>CR-060: Seduction & Enticement</h4>
+                <p>Deliberately luring a betrothed or married person into sexual relations. Includes false promises of marriage or abuse of position. Punishment: fines, imprisonment, or public humiliation.</p>
+              </div>
+              <div class="card">
+                <h4>CR-061: Blasphemy & Mockery of Faith</h4>
+                <p>Deliberate and public contempt directed at the Seven or sacred institutions. Requires proof of intent; careless speech is not prosecutable. Punishment: fines, imprisonment, or removal of tongue in severe cases.</p>
+              </div>
+              <div class="card">
+                <h4>CR-062: Desecration of Holy Sites & Objects</h4>
+                <p>Destruction, defacement, theft, or profanation of a sacred altar, relic, or holy ground. Among the gravest crimes; often capital. Includes breaking into temples, stealing offerings, or committing violence in churches.</p>
+              </div>
+              <div class="card">
+                <h4>CR-063: Heresy & False Doctrine</h4>
+                <p>Teaching or promoting doctrines contrary to the Faith of the Seven. Prosecution requires religious authority; civil courts may defer to ecclesiastical judgment. Punishment: imprisonment, exile, or execution by church order.</p>
+              </div>
+              <div class="card">
+                <h4>CR-064: Witchcraft & Sorcery</h4>
+                <p>Practicing forbidden magic or claiming supernatural powers. Prosecution varies; some regard as superstition, others as grave crime. Proof is difficult; cases often rely on confession or mob hysteria. Punishment: execution, imprisonment, or exile.</p>
+              </div>
+              <div class="card">
+                <h4>CR-065: Necromancy & Disturbing the Dead</h4>
+                <p>Desecrating graves, practicing grave robbery, or engaging in magic with corpses. A serious religious offense. Includes breaking seals on tombs or mutilating bodies. Punishment: exile, execution, or perpetual imprisonment.</p>
+              </div>
+              <div class="card">
+                <h4>CR-066: Infanticide & Child Murder</h4>
+                <p>Killing a newborn or very young child. Often prosecuted as murder. Mothers who conceal the death of illegitimate infants face charges of concealment and infanticide jointly. May result in execution or life imprisonment.</p>
+              </div>
+              <div class="card">
+                <h4>CR-067: Kin-Slaying</h4>
+                <p>Killing a blood relative. A grave offense, often regarded with religious horror. May trigger supernatural curses or vendetta. Punishment: execution, exile, or public shaming in addition to murder charges.</p>
+              </div>
+              <div class="card">
+                <h4>CR-068: Regicide</h4>
+                <p>Killing the reigning monarch. A form of high treason and the gravest crime against state and faith. Punishment: execution by torture, attainder, and destruction of family name.</p>
+              </div>
+            </div>
+          </section>
+
+          <section id="commerce">
+            <h3>Commerce & Fraud</h3>
+            <p>Crimes related to trade, currency, and deception in business.</p>
+            <div class="card-list">
+              <div class="card">
+                <h4>CR-069: Fraud & Deceit</h4>
+                <p>Deliberately misleading another for financial gain. Includes selling defective goods as sound, false weights and measures, or lying about property condition. Punishment: fines, restitution, or branding.</p>
+              </div>
+              <div class="card">
+                <h4>CR-070: Counterfeiting Currency</h4>
+                <p>Creating false coins or currency. A serious crime against Crown authority and commerce. Punishment: loss of right hand, branding, or execution.</p>
+              </div>
+              <div class="card">
+                <h4>CR-071: Document Forgery</h4>
+                <p>Creating false official documents, seals, or credentials. Includes forging wills, contracts, or royal warrants. Serious felony. Punishment: mutilation, branding, or removal of hand.</p>
+              </div>
+              <div class="card">
+                <h4>CR-072: Tax Evasion & Smuggling</h4>
+                <p>Deliberately avoiding taxes or moving goods across borders illegally. Includes false reporting of income or deliberately undervaluing goods. Punishment: fines, seizure of smuggled goods, or imprisonment.</p>
+              </div>
+              <div class="card">
+                <h4>CR-073: Price Fixing & Market Manipulation</h4>
+                <p>Merchants colluding to artificially raise prices or control markets. Includes hoarding goods to create artificial scarcity. Crown may intervene by fixing prices or granting monopolies. Punishment: fines or market bans.</p>
+              </div>
+              <div class="card">
+                <h4>CR-074: False Weights & Measures</h4>
+                <p>Using rigged scales, false measures, or deceptive containers in trade. A common merchant crime. Punishment: fines, public shaming, or removal of hand for repeat offenders.</p>
+              </div>
+              <div class="card">
+                <h4>CR-075: Adulteration of Goods</h4>
+                <p>Mixing inferior goods with superior or selling spoiled goods as fresh. Includes watering wine, mixing grain with stones, or selling poisoned food. Serious crime if resulting in illness or death. Punishment: fines, branding, or execution.</p>
+              </div>
+              <div class="card">
+                <h4>CR-076: Insurance Fraud & False Claims</h4>
+                <p>Making false claims for insurance, falsely reporting losses, or deliberately causing loss to collect insurance. Punishment: restitution, imprisonment, or corporal punishment.</p>
+              </div>
+              <div class="card">
+                <h4>CR-077: Usury & Illegal Lending</h4>
+                <p>Charging excessive interest on loans or lending at rates deemed immoral by faith or law. Crown may set maximum interest rates. Punishment: fines, restitution, or confiscation of ill-gotten gains.</p>
+              </div>
+            </div>
+          </section>
+
+          <section id="military">
+            <h3>Military Crimes & War Offenses</h3>
+            <p>Crimes specific to military service, warfare, and Crown forces.</p>
+            <div class="card-list">
+              <div class="card">
+                <h4>CR-078: Desertion</h4>
+                <p>Abandoning military service without permission during wartime or peacetime. Punishment: death by execution, forced servitude, or branding on return.</p>
+              </div>
+              <div class="card">
+                <h4>CR-079: Cowardice in Battle</h4>
+                <p>Fleeing from combat, refusing orders under fire, or abandoning comrades during engagement. Punishment: death by execution, loss of rank, branding, or public shame.</p>
+              </div>
+              <div class="card">
+                <h4>CR-080: Mutiny & Incitement to Rebellion</h4>
+                <p>Organizing armed resistance against commanding officers or the Crown. Includes refusal of lawful orders combined with force. A capital offense. Entire units may face decimation (execution of every 10th soldier).</p>
+              </div>
+              <div class="card">
+                <h4>CR-081: Unauthorized Retreat</h4>
+                <p>Withdrawing from position without orders. Includes abandoning fortifications or failing to hold ground. Punishment: death or severe punishment, especially if resulting in strategic defeat.</p>
+              </div>
+              <div class="card">
+                <h4>CR-082: Sleeping on Duty</h4>
+                <p>Falling asleep while on watch or guard duty. A military crime; punishment depends on consequences. If during wartime or resulting in breach, can be capital offense. Peacetime: whipping or detention.</p>
+              </div>
+              <div class="card">
+                <h4>CR-083: Pillage & Unauthorized Plunder</h4>
+                <p>Stealing from civilians or comrades during military campaign. Includes rape, murder, or arson outside lawful rules of war. Serious crime even in victorious army. Punishment: execution or severe mutilation.</p>
+              </div>
+              <div class="card">
+                <h4>CR-084: Violation of Terms of Surrender</h4>
+                <p>Executing prisoners who surrendered under agreed terms, or breaking safe conduct. War crime. Punishment: execution of perpetrators and compensation to harmed party.</p>
+              </div>
+              <div class="card">
+                <h4>CR-085: Fraternization with Enemy</h4>
+                <p>Communicating with enemy forces, sharing intelligence, or making private agreements without permission. Can be treason. Punishment: execution or life imprisonment.</p>
+              </div>
+              <div class="card">
+                <h4>CR-086: Loss of Crown Property or Arms</h4>
+                <p>Losing weapons, armor, or supplies entrusted to soldier. Punishment: fines, restitution, or additional service to pay debt.</p>
+              </div>
+            </div>
+          </section>
+
+          <section id="noble">
+            <h3>Crimes of Noble Status & Feudal Law</h3>
+            <p>Offenses specific to nobility, feudal relationships, and matters of honor.</p>
+            <div class="card-list">
+              <div class="card">
+                <h4>CR-087: Breach of Oath & Vassal Duty</h4>
+                <p>Noble breaking sworn oath to liege lord, including refusal of lawful military service or refusal of tribute. Serious crime; results in loss of lands, titles, or execution. Remedied by trial by combat in some cases.</p>
+              </div>
+              <div class="card">
+                <h4>CR-088: Unlawful War & Private Warfare</h4>
+                <p>Nobles making war on each other without Crown permission. Includes raids, ambushes, or siege of another's holdings. Crown may intervene directly; participants face imprisonment, fines, or loss of title.</p>
+              </div>
+              <div class="card">
+                <h4>CR-089: Usurpation of Noble Title</h4>
+                <p>Falsely claiming noble rank or holding, or seizing another's lands unlawfully. Serious crime; results in loss of title, fines, or execution for fraud.</p>
+              </div>
+              <div class="card">
+                <h4>CR-090: Violation of Sanctuary & Guest Right</h4>
+                <p>Harming a guest or person under one's roof, or violating sanctuary in sacred spaces. A grave breach of honor and law. Punishment: loss of lands, titles, execution, or in extreme cases, eternal infamy.</p>
+              </div>
+              <div class="card">
+                <h4>CR-091: Dishonoring an Oath of Knighthood</h4>
+                <p>A knight violating their sacred vows: abandoning the weak, breaking faith, or engaging in dishonorable conduct. Results in public stripping of knighthood, branding, or exile.</p>
+              </div>
+              <div class="card">
+                <h4>CR-092: Assassination of Noble or Official</h4>
+                <p>Secretly murdering a noble or Crown official. Often prosecuted as murder plus treason. Punishment: execution, often public and painful.</p>
+              </div>
+              <div class="card">
+                <h4>CR-093: Poisoning at Feast or Wedding</h4>
+                <p>Using the hospitality of a meal or celebration to poison the host or guests. A grave breach of guest right and trust. Often capital punishment with additional dishonor to family.</p>
+              </div>
+            </div>
+          </section>
+
+          <section id="punishments">
+            <h3>Punishment Principles & Framework</h3>
+            <p>
+              All punishments must be lawful, proportionate to the offense, and authorized by competent judicial authority. The Crown may not impose arbitrary punishment; sentences must follow established law and precedent.
+            </p>
+            <div class="table-box">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Factor</th>
+                    <th>Effect on Sentencing</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Aggravating factors</td>
+                    <td>Premeditation, abuse of office, repeated offending, vulnerability of victim, obstruction of justice, cruelty, targeting of nobility or children, betrayal of trust</td>
+                  </tr>
+                  <tr>
+                    <td>Mitigating factors</td>
+                    <td>Voluntary confession, cooperation with authorities, coercion by another, first offense, limited harm, restitution, youth, mental infirmity, provocation</td>
+                  </tr>
+                  <tr>
+                    <td>Legal limits</td>
+                    <td>Sentencing must remain within authority granted by Law. Cruel punishment beyond necessity is forbidden. Punishment must fit the crime.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h4 style="margin-top: 24px;">Available Punishments</h4>
+            <ul class="standard-list">
+              <li><strong>Monetary:</strong> Fine (proportional to offense and means), restitution to victim, forfeiture of property</li>
+              <li><strong>Imprisonment:</strong> Short (days), moderate (months), long (years), or life imprisonment in dungeon or tower</li>
+              <li><strong>Corporal:</strong> Whipping, branding, removal of ear/finger/hand, blinding, castration, breaking of limbs</li>
+              <li><strong>Social:</strong> Public shaming, loss of title, loss of office, removal of rank, banishment from court</li>
+              <li><strong>Permanent:</strong> Exile from Realm, loss of citizenship, slavery, perpetual servitude</li>
+              <li><strong>Capital:</strong> Execution by sword, rope, fire, drowning, drawing and quartering, or other method as determined by Crown</li>
+            </ul>
+          </section>
+        </article>
+      </main>
+    </div>
+
+    <script src="search.js"></script>
+  </body>
+</html>
